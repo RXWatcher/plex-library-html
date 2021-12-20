@@ -88,6 +88,6 @@ lerna-debug.log
 Thumbs.db
 
 # Composer
-/api/composer.phar
-/api/vendor/
-/api/composer.lock
+# /api/composer.phar
+# /api/vendor/
+# /api/composer.lock
