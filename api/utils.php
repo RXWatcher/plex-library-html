@@ -94,8 +94,6 @@ function getThumbUrl($xmlValueOrId = false) {
 }
 
 function xmlArrayIfNotArray(&$xml) {
-    if (!boolval(count($xml))) return false;
-    if (array_key_exists("@attributes", $xml)) return $xml = array($xml);
     return $xml;
 }
 
