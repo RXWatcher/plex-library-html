@@ -2803,7 +2803,7 @@
 	const mycss = {scroll, spinner};
 
 	dayjs_min.extend(relativeTime);
-	dayjs_min.locale('pt');
+	dayjs_min.locale('en');
 
 	class Media extends h{
 	    static get styles() {
